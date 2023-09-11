@@ -1,0 +1,77 @@
+body{
+    /* background-image: url('/static/img/nature.webp'); */
+    background-size: cover;
+    font-weight: bold;
+}
+
+.form-container{
+    width: 300px;
+    height: 550px;
+    margin: auto;
+    padding: 18px;
+    background-color: white;
+    /* box-shadow: 5px 5px 5px 5px  black; */
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.5);
+}
+
+.register{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.go_back{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.checkin_container{
+    margin: auto 0px;
+}
+.checkin-header{
+    color:lightgray;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.date{
+    width: 100px;
+    margin: 10px;
+    /* color: white;
+    background-color: black; */
+    align-items: center;
+}
+
+.date_label{
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.invalid-feedback {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.no-bullet{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Style for centering the form button */
+.center-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
